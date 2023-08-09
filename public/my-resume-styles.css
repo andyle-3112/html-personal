@@ -1,0 +1,199 @@
+
+
+body {
+    background-color: #EAFDFC;
+    margin:0;
+    }
+    
+    h1 {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    
+    h2 {
+        color: #82AAE3;
+        font-family: Outfit;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 0px;
+        text-transform: uppercase;
+    }
+    
+    p {
+        font-family: Outfit;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300px;
+        text-transform: uppercase;
+    }
+    
+    /* HEADER */
+    
+    #background-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+    }
+    
+    .gradient-background {
+        background: linear-gradient(300deg, #82AAE3, #91D8E4, #BFEAF5, #87EDE8);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite; }
+        
+        
+    @keyframes gradient-animation {
+            0% {
+              background-position: 0% 50%;
+            }
+            50% {
+              background-position: 100% 50%;
+            }
+            100% {
+              background-position: 0% 50%;
+            }
+    }
+    
+    
+    #background-name div {
+        text-align: center;
+        margin: 0;
+        height: 100vh;
+    }
+
+    #background-name h2 {
+        color: white;
+    }
+    
+    
+    /* RESUME */
+
+    .resume {
+        display: relative;
+        margin-left: 100px;
+        margin-right: 100px ;
+        padding: 10px;
+        
+    }
+
+    .resume > * {
+        font-family: outfit, 'Times New Roman', Times, serif;
+    }
+
+    @media (max-width: 600px){
+        .resume {
+            margin: 10px;
+            padding: 10px;
+        }
+    }    
+
+    /* SELF INTRO */
+
+    .self-intro {
+        text-transform: capitalize;
+        color: #717878;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .self-intro > img {
+        border-radius: 10px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        margin:20px;
+    }
+
+    /* SUMMARY */
+
+    .summary {
+        text-transform: capitalize;
+        color: black;
+    }
+
+
+    /* EDUCATION */
+
+    .education {
+        text-transform: capitalize;
+        color: black;
+        display: flex;
+        gap:10px;
+        font-weight: 600;
+    }    
+
+    .education > a > img {
+        border-radius: 10px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        margin:20px;
+    }
+
+    /* WORK EXPERIENCE */
+    .work-experience > * {
+        font-family: outfit, 'Times New Roman', Times, serif;
+    }
+
+    .talent-sakura {
+        color: black;
+        display: flex;
+        gap:10px;
+        font-weight: 600;
+    }
+
+    
+    .talent-sakura > a > img {
+        border-radius: 10px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        margin: 20px;
+    }
+
+
+    /* SKILLSET */
+    
+    /* CERTIFICATION */
+
+
+    /* OTHER */
+    
+    /* FOOTER */
+    
+    .footer {
+        padding-top: 20px;
+        display: block;
+        margin-top: 10px;
+        color: #FFF;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    
+    .footer > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .footer-info {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .footer-info > a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        border: 1px solid  white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    
+    
